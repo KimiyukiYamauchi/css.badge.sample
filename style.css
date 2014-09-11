@@ -30,6 +30,19 @@ body > #container {
 #menu {
 	margin-bottom: 15px;
 	overflow: hidden;
+	border: dotted 1px orange;
+	padding: 1em;
+	position: relative;
+}
+
+#menu>.badge {
+	background: red;
+	color: white;
+	font-size: 14px;
+	padding: 2px 4px 3px;
+	position: absolute;
+	top: -5px;
+	right: -5px;
 }
 
 #main {
@@ -53,6 +66,9 @@ body > #container {
 	text-align: center;
 	border-top: 1px solid #ccc;
 	padding: 10px 0 20px;
+}
+
+#menu ul {
 }
 
 #menu ul>li {
