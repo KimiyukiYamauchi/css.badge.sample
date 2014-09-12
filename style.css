@@ -73,7 +73,8 @@ body > #container {
 
 #menu ul>li {
 	float: left;
-	width: 100px;
+	/*width: 100px;*/
+	width: 30%;
 	font-size: 13px;
 	text-align: center;
 	padding: 4px;
